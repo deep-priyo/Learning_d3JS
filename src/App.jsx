@@ -7,6 +7,7 @@ import DyncamicRectBarChart from "./Components/DyncamicRectBarChart.jsx";
 import StyledBarGraph from "./Components/StyledBarGraph.jsx";
 import LineChart from "./Components/LineChart.jsx";
 import LineChart2 from "./Components/LineChart2.jsx";
+import LineChartCSV from "./Components/LineChartCSV.jsx";
 
 const App = () => {
     return (
@@ -18,7 +19,9 @@ const App = () => {
             {/*<DyncamicRectBarChart/>*/}
             {/*<StyledBarGraph/>        */}
 
-            <LineChart2/>
+
+
+            <LineChartCSV/>
 
         </div>
     )
